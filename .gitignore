@@ -1,0 +1,44 @@
+# Ignore the virtual environment folder
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model checkpoints and logs
+models/
+*.h5
+*.ckpt
+*.onnx
+
+# Ignore uploaded files
+uploads/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore logs and debug files
+logs/
+*.log
+*.out
+*.err
+
+# Ignore environment configuration files
+.env
+*.config
+
+# Ignore Python package manager files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore temporary files
+*.swp
+*.swo
